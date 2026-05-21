@@ -1,0 +1,47 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-main bg-neoWhite text-neoBlack overflow-x-hidden;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+
+  ::selection {
+    @apply bg-neoYellow text-neoBlack;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-neoWhite border-l-2 border-neoBlack;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-neoBlack;
+  }
+}
+
+@layer utilities {
+  .accent-underline {
+    position: relative;
+    display: inline-block;
+  }
+  .accent-underline::after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    height: 8px;
+    background: #FFE500;
+    z-index: -1;
+    transform: skewX(-3deg);
+  }
+}
