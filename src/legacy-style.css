@@ -530,6 +530,7 @@ section { padding: 100px 0; }
 .card-blue { background: var(--blue-light); }
 .card-red { background: var(--red-light); }
 .card-green { background: var(--green-light); }
+.card-purple { background: var(--purple-light); }
 
 .ahc-icon { font-size: 1.8rem; flex-shrink: 0; }
 .ahc-title { font-weight: 700; font-size: 0.95rem; margin-bottom: 2px; }

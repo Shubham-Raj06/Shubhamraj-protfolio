@@ -200,7 +200,14 @@ function App() {
             <div className="ahc-icon">🏆</div>
             <div>
               <div className="ahc-title">Smart India Hackathon</div>
-              <div className="ahc-sub">Finalist · Entrepreneur of Year · MAIT</div>
+              <div className="ahc-sub">MAIT</div>
+            </div>
+          </div>
+          <div className="about-highlight-card card-purple">
+            <div className="ahc-icon">🥇</div>
+            <div>
+              <div className="ahc-title">Entrepreneur of the Year</div>
+              <div className="ahc-sub">Awardee</div>
             </div>
           </div>
           <div className="about-highlight-card card-green">
@@ -551,7 +558,7 @@ function App() {
             <div className="timeline-year">August 2023</div>
             <h3 className="timeline-role">Founded Startup Sphere</h3>
             <p className="timeline-desc"><strong>Work Experience &amp; Award:</strong> Launched Startup Sphere, building the
-              online community to 10,000+ members and winning 'Entrepreneur of the Year' at MAIT.</p>
+              online community to 10,000+ members and becoming 'Entrepreneur of the Year' Awardee.</p>
           </div>
         </div>
           </>)}
@@ -1244,7 +1251,7 @@ function App() {
           <div className="si-icon">🏆</div>
           <div>
             <div className="si-venue">Ministry of Ayush · SIH 2023</div>
-            <div className="si-title">Smart India Hackathon Finalist</div>
+            <div className="si-title">Smart India Hackathon · MAIT</div>
             <div className="si-detail">Recognized among the top teams in India for engineering innovative digital solutions
               for government ministries.</div>
           </div>
@@ -1254,8 +1261,8 @@ function App() {
         <div className="speaking-item reveal" style={{ "--reveal-delay": "0.2s" }}>
           <div className="si-icon">🥇</div>
           <div>
-            <div className="si-venue">MAIT Startup Ecosystem · 2023</div>
-            <div className="si-title">Entrepreneur of the Year</div>
+            <div className="si-venue">Startup Ecosystem · 2023</div>
+            <div className="si-title">Entrepreneur of the Year Awardee</div>
             <div className="si-detail">Awarded top honors for founding Startup Sphere, growing it to 10K+ members, and
               mentoring 20+ student startups.</div>
           </div>
@@ -1594,8 +1601,8 @@ function App() {
             <div className="edu-school">Maharaja Agrasen Institute of Technology (MAIT)</div>
             <div className="edu-period">Delhi, India · Sep 2023 – Present · Expected 2027</div>
             <div className="edu-awards">
-              <span className="edu-award">🏆 Smart India Hackathon Finalist</span>
-              <span className="edu-award">🥇 Entrepreneur of the Year · MAIT 2023</span>
+              <span className="edu-award">🏆 Smart India Hackathon · MAIT</span>
+              <span className="edu-award">🥇 Entrepreneur of the Year Awardee</span>
               <span className="edu-award">🏅 Startup Sphere Founder · 10K+ Members</span>
             </div>
           </div>
